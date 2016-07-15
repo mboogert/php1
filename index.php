@@ -4,8 +4,8 @@
   header("Refresh:1");
   
   echo "SERVER_NAME = " . $_SERVER['SERVER_NAME'] . "</br>";
-  echo "HTTP_HOST   = " . $_SERVER['HTTP_HOST'] . "</br>"
-  echo "SERVER_ADDR = " . $_SERVER['SERVER_ADDR'] . "</br></br>"
+  echo "HTTP_HOST   = " . $_SERVER['HTTP_HOST'] . "</br>";
+  echo "SERVER_ADDR = " . $_SERVER['SERVER_ADDR'] . "</br></br>";
   
   $time = microtime();
   $time = explode(' ', $time);
