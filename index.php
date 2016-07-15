@@ -1,11 +1,11 @@
 <?php
 
-  print "<body style='background-color:red'>";
+  echo "<body style='background-color:red'>";
   header("Refresh:1");
   
-  print "SERVER_NAME = " . $_SERVER['SERVER_NAME'] . "</br>";
-  print "HTTP_HOST   = " . $_SERVER['HTTP_HOST'] . "</br>"
-  print "SERVER_ADDR = " . $_SERVER['SERVER_ADDR'] . "</br></br>"
+  echo "SERVER_NAME = " . $_SERVER['SERVER_NAME'] . "</br>";
+  echo "HTTP_HOST   = " . $_SERVER['HTTP_HOST'] . "</br>"
+  echo "SERVER_ADDR = " . $_SERVER['SERVER_ADDR'] . "</br></br>"
   
   $time = microtime();
   $time = explode(' ', $time);
