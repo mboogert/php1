@@ -1,7 +1,7 @@
 <?php
 
-  echo "<body style='background-color:red'>";
-  header("Refresh:1");
+  echo "<body style='background-color:blue'>";
+  header("Refresh:5");
   
   echo "SERVER_NAME = " . $_SERVER['SERVER_NAME'] . "</br>";
   echo "HTTP_HOST   = " . $_SERVER['HTTP_HOST'] . "</br>";
