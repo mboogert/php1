@@ -1,6 +1,6 @@
 <?php
 
-  echo "<body style='background-color:red'>";
+  echo "<body style='background-color:blue'>";
   header("Refresh:5");
   
   echo "SERVER_NAME = " . $_SERVER['SERVER_NAME'] . "</br>";
